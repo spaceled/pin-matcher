@@ -33,14 +33,15 @@ body {
 }
 
 input[type='text']{
-    background-color: #3D4153;
+    background-color: #3D4153 !important;
     padding: 10px 0px;
-    color: #ffffff;
     width: 80%;
     margin: 0 auto;
     border: 2px solid #858299;
     height: 50px;
     padding: 10px;
+    color: #ffffff;
+    text-align: center;
 }
 input[type='text']:focus {
     background-color: #3D4153;
